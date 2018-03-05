@@ -7,11 +7,37 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-fc83ac27.css" rel="stylesheet" />
+    <link href="stylesheets/application-3c48b980.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
+
+    <div class="navbar_wagon">
+  <a href="/" class="navbar-wagon-brand">
+     <img src="images/logo-acc9c0ec.png" alt="logo" />
+  </a>
+<div class="navbar-wagon-right hidden-xs hidden-sm">
+  <a href="about.html" class="navbar-wagon-item navbar-wagon-link">About</a>
+  <a href="" class="navbar_wagon-item navbar-wagon-link">Trips</a>
+  <a href="" class="navbar_wagon-item navbar-wagon-link">Messages</a>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Host</a></li>
+        <li><a href="#">Trips</a></li>
+        <li><a href="#">Messagese</a></li>
+      </ul>
+
+  </div>
+</div>
+</div>
+
+
     <div id="home">
   <div class="home-content">
     <img src="images/logo-acc9c0ec.png" width="200" alt="Logo" />
@@ -23,6 +49,11 @@
     </p>
   </div>
 </div>
+
+
+    <p>
+    This is the footer &copy; 2018
+</p>
 
   </body>
 </html>
